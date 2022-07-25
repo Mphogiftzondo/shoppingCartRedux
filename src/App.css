@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(20, 33, 61);
+}
+.productConatiner {
+  display: block;
+}
+.navigation {
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(252, 163, 49);
+  color:#ffffff;
+  font-size: 25px;
+}
+.navigation a {
+  text-decoration: none;
+  color:#ffffff;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 100px;
+}
+.product {
+  display: block;
+  border-radius: 25px;
+  background-color: rgba(229,229,229);
+  padding: 20px;
+}
+.product img {
+  height: 200px;
+  width: 200px;
+  border-radius: 18px;
+}
+.product button {
+  background-color: rgb(20, 33, 61);
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 15px;
+  border-color: black;
+  
+}
+.product button:hover{
+  width: 50%;
+  height: 15%;
+  background-color: rgb(20, 33, 61,0.5);
+}
+.product h4 {
+  width: 200px;
+}
+
+/* cart */
+
+.cartcontainer {
+  display: block;
+  color: #ffffff;
+}
+
+.cart {
+  margin-top:10px;
+  padding: 50px;
+}
+.cartcad {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: rgba(229,229,229);
+  color: #000;
+  padding: 20px;
+  border-radius: 20px;
+}
+.cartcad img {
+  width: 200px;
+  height: 200px;
+}
+.cartcad button {
+  background-color: rgb(20, 33, 61);
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 15px;
+  border-color: black;
+}
+.cartcad button :hover{
+  width: 50%;
+  height: 15%;
+  background-color: rgb(20, 33, 61,0.5);
+}
+.icon{
+  height: 50px;
+  width: 50px;
+}
